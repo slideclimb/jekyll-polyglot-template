@@ -1,3 +1,7 @@
+Work in progress, don't trust this repo yet :)
+
+---
+
 # Jekyll polyglot template
 
 This template uses:
