@@ -31,7 +31,9 @@ We can then deploy the `gh-pages` branch to GitHub pages.
   - `git rm -rf .`
   - `git commit --allow-empty -m "initial commit"`
   - `git push origin gh-pages`
-- Edit the first part of `.github/workflows/pages.yml` so that the Action is triggered when you push to your `main` branch (if your main branch is `main` you don't have to do anything).
+- Edit the `.github/workflows/pages.yml`:
+  - Make sure that the Action is triggered when you push to your `main` branch (if your main branch is `main` you don't have to do anything) by updating the branch in `on: push: branches: - main`.
+  - Set the repository in `jobs: build_and_deploy: steps: with: repository` to the repo you just created.
 - In GitHub, go to **Settings > Pages** to configure that GitHub deploys the blog when we (read: our action) push to the `gh-pages` branch:
   - As source, select `Deploy from a branch`
   - As branch, select `gh-pages`
