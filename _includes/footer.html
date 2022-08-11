@@ -24,9 +24,9 @@
       <div class="footer-col footer-col-2">
         {% for lang in site.languages %}
           {% if lang == site.default_lang %}
-            <a href=" {{ page.url }}">{{ lang }}</a>
+            <a href=" {{ site.baseurl }}/{{ page.url }}">{{ lang }}</a>
           {% else %}
-           <a href="/{{ lang }}{{ page.url }}">{{ lang }}</a>
+           <a href="{{ site.baseurl }}/{{ lang }}{{ page.url }}">{{ lang }}</a>
           {% endif %}
         {% endfor %}
       </div>
