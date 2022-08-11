@@ -38,6 +38,6 @@ We can then deploy the `gh-pages` branch to GitHub pages.
   - Click the save button
 
 To confirm that this works, push something to the main branch and watch the GitHub Actions do their thing!
-You can verify that everything works by going to `<your-repo-name>.github.io` and clicking around.
+You can verify that everything works by going to `<username>.github.io/<repo-name>/` and clicking around.
 Be especially careful to verify that clicking a link on the `nl` site links to an `nl` page (and not an `en` page). 
 If this works, you have successfully set up a Jekyll blog that cannot be deployed by the default GitHub action to deploy a Jekyll blog as that won't allow `jekyll-polyglot`.
