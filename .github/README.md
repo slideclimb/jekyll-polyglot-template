@@ -25,6 +25,8 @@ Then follow the steps in [Running locally](#-running-locally) to set up your rep
 - Go to http://127.0.0.1:4000 (or whatever address Jekyll says at the line `Server address`).
 - If everything works, you should see something like 
 
+![example](https://user-images.githubusercontent.com/15685876/184389046-5bfe39cc-a15f-4620-81ec-27027934d36f.png)
+
 ## Deploying on GitHub pages
 The `pages.yml` action in `.github/workflows` will generate the site content and push it to a given branch.
 By default, it is triggered by a push to the `main` branch, and pushes the generated content to the `gh-pages` branch. 
