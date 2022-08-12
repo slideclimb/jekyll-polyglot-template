@@ -1,13 +1,19 @@
+# This is a url that Jekyll will use to generate all links to your site. Your site should be published to this domain.
+# Make sure that you either own the domain, or that it is the github.io subdomain from your user or organisation.
 url: https://slideclimb.github.io
+# The url path that Jekyll appends to your url before generating all the other paths when generating links. When using
+# Jekyll to generate a site hosted on GitHub via a repo that is not <username>.github.io, this should be the name of the
+# repo, because GitHub Pages publishes to https://<username>.github.io/<repository>.
 baseurl: /jekyll-polyglot-template
+
 author: slideclimb
+
 
 # polyglot settings
 languages: ["en", "nl"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "public", "assets/css", "assets/img"]
 parallel_localization: true
-#lang_from_path: true
 
 sass:
   sourcemap: never
@@ -18,23 +24,3 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-polyglot
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
