@@ -1,5 +1,7 @@
 # Jekyll polyglot template and example
 
+See the example at work at [https://slideclimb.github.io/jekyll-polyglot-template](https://slideclimb.github.io/jekyll-polyglot-template)
+
 This template uses:
 - [Jekyll](https://jekyllrb.com/)
 - [jekyll-polyglot](https://polyglot.untra.io/)
