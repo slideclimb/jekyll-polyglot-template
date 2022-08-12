@@ -1,13 +1,10 @@
-Work in progress, don't trust this repo yet :)
-
----
-
 # Jekyll polyglot template and example
 
 This template uses:
 - [Jekyll](https://jekyllrb.com/)
 - [jekyll-polyglot](https://polyglot.untra.io/)
 - [MathJax](https://www.mathjax.org/)
+- [GitHub Pages](https://pages.github.com/)
 - [jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action): A GitHub action to deploy generated content from Jekyll to a git branch.
 
 To use this template, create a new repo based on this template.
